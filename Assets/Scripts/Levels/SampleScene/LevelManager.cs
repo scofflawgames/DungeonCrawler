@@ -7,10 +7,10 @@ namespace SampleScene
     public class LevelManager : MonoBehaviour
     {
         [SerializeField]
-        GameObject wallPrefab;
+        GameObject wallPrefab = null;
 
         [SerializeField]
-        GameObject floorPrefab;
+        GameObject floorPrefab = null;
 
         void Start()
         {
